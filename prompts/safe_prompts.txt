@@ -1,0 +1,5 @@
+Explain what prompt injection is in simple words.
+Give me 5 best practices to secure LLM applications.
+Explain why system prompts should not be exposed.
+Create a short checklist for LLM security testing.
+Explain OWASP LLM Top 10 in brief.

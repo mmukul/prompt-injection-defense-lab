@@ -1,0 +1,77 @@
+# Secure Ollama Lab
+
+A ready-to-run local LLM security demo using Ollama.
+
+This project demonstrates:
+- insecure LLM prompt behavior
+- secure system prompt design
+- prompt injection detection
+- unsafe input filtering
+- safe response validation
+- local testing without Jenkins or DevSecOps pipeline
+
+## Demo Goal
+
+Show how a local LLM can be protected from common prompt injection attempts using simple security controls.
+
+## Requirements
+
+- Linux/macOS/WSL
+- Python 3.10+
+- Ollama installed
+- Model downloaded locally
+
+## Install Ollama Model
+
+```bash
+ollama pull llama3.2:3b
+```
+
+## Start Ollama
+
+```bash
+ollama serve
+```
+
+Keep this terminal running.
+
+## Setup Project
+
+```bash
+git clone https://github.com/mmukul/secure-ollama-lab.git
+cd secure-ollama-lab
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+## Run Secure Chat Demo
+
+```bash
+python app/secure_chat.py
+```
+
+## Run Security Test Cases
+
+```bash
+python tests/run_prompt_tests.py
+```
+
+## Expected Output
+
+The unsafe prompts should be blocked before reaching the LLM, or the unsafe LLM response should be detected.
+
+## YouTube Demo Flow
+
+1. Explain prompt injection
+2. Show vulnerable prompts
+3. Run secure Ollama wrapper
+4. Show blocked attack prompts
+5. Explain secure prompt design
+6. Explain why LLM apps need security controls
+
+## Disclaimer
+
+This lab is for educational and defensive security learning only.
