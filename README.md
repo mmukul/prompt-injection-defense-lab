@@ -62,14 +62,6 @@ python tests/run_prompt_tests.py
 
 The unsafe prompts should be blocked before reaching the LLM, or the unsafe LLM response should be detected.
 
-## YouTube Demo Flow
-
-1. Explain prompt injection
-2. Show vulnerable prompts
-3. Run secure Ollama wrapper
-4. Show blocked attack prompts
-5. Explain secure prompt design
-6. Explain why LLM apps need security controls
 
 ## Disclaimer
 
