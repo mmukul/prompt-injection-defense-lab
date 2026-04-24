@@ -1,4 +1,4 @@
-# Secure Ollama Lab
+# Prompt injection defense Lab
 
 A ready-to-run local LLM security demo using Ollama.
 
