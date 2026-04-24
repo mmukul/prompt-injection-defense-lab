@@ -37,8 +37,8 @@ Keep this terminal running.
 ## Setup Project
 
 ```bash
-git clone https://github.com/mmukul/secure-ollama-lab.git
-cd secure-ollama-lab
+git clone https://github.com/mmukul/prompt-injection-defense-lab.git
+cd prompt-injection-defense-lab
 
 python3 -m venv venv
 source venv/bin/activate
