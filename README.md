@@ -8,7 +8,6 @@ This project demonstrates:
 - prompt injection detection
 - unsafe input filtering
 - safe response validation
-- local testing without Jenkins or DevSecOps pipeline
 
 ## Demo Goal
 
@@ -16,7 +15,7 @@ Show how a local LLM can be protected from common prompt injection attempts usin
 
 ## Requirements
 
-- Linux/macOS/WSL
+- Linux
 - Python 3.10+
 - Ollama installed
 - Model downloaded locally
