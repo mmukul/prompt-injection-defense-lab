@@ -40,9 +40,6 @@ Keep this terminal running.
 git clone https://github.com/mmukul/prompt-injection-defense-lab.git
 cd prompt-injection-defense-lab
 
-python3 -m venv venv
-source venv/bin/activate
-
 pip install -r requirements.txt
 ```
 
